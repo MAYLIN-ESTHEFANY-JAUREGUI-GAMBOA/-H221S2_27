@@ -1,0 +1,355 @@
+/* BODY */
+/* ELIMINA LOS MARGENES Y ESTILOS POR DEFECTO */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+/* SECCION-1 */
+.Seccion-1 {
+    background: black;
+    
+    padding-bottom: 5px;
+}
+.Seccion-1 nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0px 15px;
+}
+
+.Seccion-1 ul {
+    display: flex;
+
+    margin: 0px 5px;
+}
+
+.Seccion-1 a {
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+    margin: 10px 10px;
+}
+
+/* BOTON-1 */
+.Boton-1:hover {
+    background-color: red;
+
+    padding: 0px 15px;
+
+    cursor: pointer;
+}
+
+/* ICONO */
+.Icono {
+    display: flex;
+    width: 20px;
+    height: 20px;
+
+    margin-top: 8px;
+}
+
+.Icono-Bandera-Peru {
+    width: 35px;
+    margin-left: 5px;
+}
+
+.lineaVertical-1{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    height: 35px;
+}
+
+
+
+.Seccion-5 p{font-family:TimesNewRoman}
+
+
+
+
+
+/* SECCION-2 */
+.Seccion-2 {
+    background: url('./img/Portada-Seccion-2.png') no-repeat center center/cover;
+
+    width: 100%;
+    height: 610px;
+}
+
+.Seccion-2 nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0px 15px;
+}
+
+.Seccion-2 ul {
+    display: flex;
+
+    margin: 20px 5px;
+}
+
+.Seccion-2 a {
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(0, 0, 0);
+
+    margin: 10px 10px;
+}
+
+.Seccion-2 a:hover {
+    border-bottom: 2px solid rgb(206, 12, 12);  /* SUBRAYADO */
+}
+
+/* BOTON-2 */
+.Boton-2 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+/* ICONO */
+.CSR-Logo {
+    width: 80px;
+}
+
+/* TITULO-2 */
+.Titulo-2 {
+    margin: 120px 150px;
+}
+
+.Titulo-2 h2 {
+    background: #ccc;
+    background: linear-gradient(90deg, #ffffff, rgb(236, 236, 236));
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+}
+
+.Titulo-2 h4 {
+    background: #ccc;
+    background: linear-gradient(90deg, #ffffff, rgb(236, 236, 236));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+/* SECCION-3 */
+.Seccion-3 {
+    background-color: black;
+
+    width: 100%;
+}
+
+.Seccion-3 div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 50px;
+}
+
+.Seccion-3 h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.Seccion-3 p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+/* CONTENEDOR-BIENVENIDOS */
+.Contenedor-Bienvenidos {
+    padding-left: 100px;
+}
+
+/* SUBRAYADO */
+.Subrayado-Bienvenidos {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 5px;
+    width: 40px;
+    background-color: red;
+    border-color: red ;
+}
+
+/* ICONO */
+.Bienvenidos {
+    height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECCION-4 */
+.Seccion-4 {
+    background: url('./img/Fondo-Gris.png') no-repeat center center/cover;
+
+    width: 100%; 
+    padding-bottom: 50px;
+}
+
+.Seccion-4 .Titulo-4 {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.Seccion-4 .Titulo-4 h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.Seccion-4 .Articulo-Vision-Mision {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 300px;
+}
+
+/* ARTICULO-VISION */
+.Articulo-Vision {
+    background-color: black;
+    border-radius: 20px;
+    width: 320px;
+    height: 400px;
+    padding: 10px 20px;
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.Articulo-Vision li {
+    padding: 20px 100px;
+}
+
+/* ARTICULO-MISION */
+.Articulo-Mision {
+    background-color: #e9e9e9;
+    border-radius: 20px;
+    width: 320px;
+    height: 400px;
+
+    padding: 10px 20px;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.Articulo-Mision li {
+    padding: 20px 90px;
+}
+
+/* SUBRAYADO */
+.Subrayado-Bienvenidos {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 5px;
+    width: 40px;
+    background-color: red;
+    border-color: red ;
+}
+
+/* ICONO */
+.Icono-Vision {
+    width: 70px;
+    height: 90px;
+}
+
+.Icono-Mision {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECCION-5 */
+.Seccion-5 {
+    background: url('./img/Fondo-Reseña-Historica.png') no-repeat center center/cover;
+
+    width: 100%;
+}
+
+.Seccion-5 div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 50px;
+}
+
+.Seccion-5 h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.Seccion-5 p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+/* CONTENEDOR-RESEÑA-HISTORICA */
+.Contenedor-Reseña-Historica {
+    padding-left: 100px;
+}
+
+/* SUBRAYADO */
+.Subrayado-Bienvenidos {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 5px;
+    width: 40px;
+    background-color: red;
+    border-color: red ;
+}

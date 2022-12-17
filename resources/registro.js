@@ -1,4 +1,4 @@
-const url = "http://34.232.233.57:3000/api/usuario/";
+const url = "http://52.7.42.231:3000/api/usuario/";
 let resultados = '';
 const formArticulo = document.querySelector("form");
 const nomuser = document.getElementById("NOMUSER");

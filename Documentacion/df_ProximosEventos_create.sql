@@ -1,0 +1,19 @@
+-- Created by Vertabelo (http://vertabelo.com)
+-- Last modification date: 2022-12-14 02:05:00.704
+
+-- tables
+-- Table: USUARIO
+CREATE TABLE USUARIO (
+    IDINTIFICADOR_USUARIO int  NOT NULL,
+    NOMBRE_USUARIO varchar(50)  NOT NULL,
+    APELLIDO_USUARIO varchar(80)  NOT NULL,
+    GMAIL_USUARIO varchar(100)  NOT NULL,
+    CELULAR_USUARIO char(9)  NOT NULL,
+    PROFESION_USUARIO varchar(100)  NOT NULL,
+    LUGAR_PROCEDENCIA_USUARIO varchar(100)  NOT NULL,
+    ESTADO_USUARIO char(1)  NOT NULL,
+    CONSTRAINT USUARIO_pk PRIMARY KEY (IDINTIFICADOR_USUARIO)
+);
+
+-- End of file.
+

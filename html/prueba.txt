@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proximos eventos</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+    <!-- Proximos eventos CSS -->
+	<link rel="stylesheet" href="../css/Proximos_Eventos.css"> 
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Registro de eventos</div>
+        <div class="form">
+            <div class="inputfield">
+                <label>Nombres</label>
+                <input type="text" class="input" id="NOM_USER" required>
+            </div>  
+            <div class="inputfield">
+                <label>Apellidos</label>
+                <input type="text" class="input" id="APE_USER" required>
+            </div>  
+            <div class="inputfield">
+                <label>Gmail</label>
+                <input type="email" class="input" id="GMA_USER" required>
+            </div> 
+            <div class="inputfield">
+                <label>Celular</label>
+                <input type="text" class="input" id="CEL_USER" required>
+            </div> 
+            <div class="inputfield">
+                <label>Profesión</label>
+                <input type="text" class="input" id="PRO_USER" required>
+            </div> 
+            <div class="inputfield">
+                <label>Lugar de procedencia</label>
+                <input type="text" class="input" id="LDP_USER" required>
+            </div> 
+            <!--<div class="inputfield">
+                <label>Seleccione un evento</label>
+                <div class="custom_select">
+                    <select>
+                        <option disabled selected=""></option>
+                        <option value="">Evento_1</option>
+                        <option value="">Evento_2</option>
+                        <option value="">Evento_3</option>
+                        <option value="">Evento_4</option>
+                        <option value="">Evento_5</option>
+                        <option value="">Evento_6</option>
+                    </select>
+                </div>
+            </div> -->
+            <div class="inputfield">
+                <input id="btnCrear" type="submit" value="Registrese" class="btn" class="btn btn-secondary">
+            </div>
+        </div>
+    </div>
+
+<!-- Logeo JS -->
+<script src="js/Logeo.js"></script>
+<!-- Conexion a la base de datos -->
+<script src="../Conexion.js"></script>
+</body>
+</html>
+
